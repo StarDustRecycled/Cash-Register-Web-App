@@ -12,6 +12,54 @@
 <body>
     <div class="container">
         <h1>Cash Counter App 💰💸💲</h1>
+        <h3> Spits out the change in terms of rupees!</h3>
+        <br>
+        <h4>Bill amount: </h4>
+        <input type="number" name="" id="input-bill-amount" required min="1">
+        <br>
+        <br>
+        <button class="btn-next">Next</button>
+        <div class="div-payment" hidden>
+            <h4>Cash Received</h4>
+            <input type="number" id="input-payment-amount">
+            <button class="btn-count">Count</button>
+        </div>
+        <br>
+        <div class="div-change" hidden>
+            <div class="div-table" hidden>
+                <h4>Return change: </h4>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Denomination</th>
+                            <td>2000</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>50</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>2</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <th>No. of Notes</th>
+                            <td class="td-note 0">0</td>
+                            <td class="td-note 1">0</td>
+                            <td class="td-note 2">0</td>
+                            <td class="td-note 3">0</td>
+                            <td class="td-note 4">0</td>
+                            <td class="td-note 5">0</td>
+                            <td class="td-note 6">0</td>
+                            <td class="td-note 7">0</td>
+                            <td class="td-note 8">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <span class="span-remark" hidden></span>
+            <!-- <img src="/img/bartan.gif" alt="" hidden class="img-dishes"> -->
+        </div>
     </div>
 </body>
 
