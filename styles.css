@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to left bottom, #4aa96c, #3f975e, #358651, #2a7544, #206438) no-repeat center center fixed;
+    background: linear-gradient(to left bottom, #4aa96c, #3f975e, #358651, #2a7544, #206438) no-repeat center  fixed;
     /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center; */
