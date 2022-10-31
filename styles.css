@@ -8,11 +8,12 @@ html {
 }
 
 body {
-    background: #4AA96C;
+    background: linear-gradient(to left bottom, #4aa96c, #3f975e, #358651, #2a7544, #206438) no-repeat center center fixed;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    /* background: -webkit-linear-gradient(to left,#80CBC4, #004D40);   */
-    /* background: linear-gradient(to left, #80CBC4, #004D40);  */
 }
 
 .container {
